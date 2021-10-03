@@ -1,0 +1,3 @@
+- Can I Call FizzBuzz
+- Get "1" when I pass in 1
+- Get "2" when I pass in 2
