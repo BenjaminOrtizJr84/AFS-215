@@ -22,6 +22,10 @@ def fizzBuzz ( value ):
 def test_canCallFizzBuzz():  
     fizzBuzz(1)
 
+---------
+
+<!-- No Refactoring Needed -->
+
 - Step 2: Get "1" when I pass in 1
 
 def fizzBuzz ( value ):     
@@ -41,8 +45,6 @@ def fizzBuzz ( value ):
                                 <!-- Passing Test -->
 def test_canCallFizzBuzz():  
     fizzBuzz(1)
-
-
 
 ----------
 
