@@ -427,7 +427,3 @@ def test_returnsFizzBuzzWith15PassedIn():
 ------------
 
 <!-- No Refactoring Needed -->
-
-Notes:
-
-Tutorial Source: https://www.linkedin.com/learning/unit-testing-and-test-driven-development-in-python/example-tdd-session-the-fizzbuzz-kata
