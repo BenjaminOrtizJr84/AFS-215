@@ -1,10 +1,5 @@
-# def test_AssertTrue():              (initial pytest test)
-#     assert True
 import pytest
 from checkout import Checkout
-
-# def test_CanInstantiateCheckout():  (removed to refactor on step 2)  (1)
-#     co = Checkout()
 
 @pytest.fixture()
 def checkout():
@@ -12,12 +7,6 @@ def checkout():
     checkout.addItemPrice("a", 1)
     checkout.addItemPrice("b", 2)
     return checkout
-
-# def test_CanAddItemPrice(checkout):                                             
-#     checkout.addItemPrice("a", 1)         (Removed to refactor for step 4) (4)
-                                        
-# def test_CanAddItem(checkout):
-#     checkout.addItem("a")
 
 def test_CanCalculateTotal(checkout):
     checkout.addItem("a")
