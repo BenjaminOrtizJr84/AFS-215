@@ -1,0 +1,19 @@
+{
+  "name": "fizzbuzz",
+  "version": "1.0.0",
+  "main": "fizzBuzzKata.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.3.2"
+  }
+}
