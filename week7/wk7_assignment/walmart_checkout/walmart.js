@@ -53,7 +53,6 @@ class Checkout {
         for (let i = 0; i < this.items.length; i++) {
             if (this.items[i].name == name) {
                 this.items[i] = { name: name, price: price - discount };
-                console.log(this.items)
             } else {
                 errMsg = "Item does not have a price";
                 throw Error(errMsg);
@@ -62,7 +61,7 @@ class Checkout {
         return this.items[0].price
     }
 
-    
+
 }
 
 module.exports = Checkout;
